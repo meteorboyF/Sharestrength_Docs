@@ -1,29 +1,21 @@
 # Database Models
 
-ShareStrength uses Eloquent ORM with the following models.
+ShareStrength uses the following models.
 
-## Entity Relationship Diagram
 
-```
-┌─────────────┐       ┌─────────────┐       ┌─────────────┐
-│    User     │       │    Task     │       │   Helper    │
-│   (PWD)     │───────│             │───────│ (HelpMate)  │
-└─────────────┘       └─────────────┘       └─────────────┘
-      │                     │                     │
-      │                     │                     │
-      ▼                     ▼                     ▼
-┌─────────────┐       ┌─────────────┐       ┌─────────────┐
-│   Order     │       │   Message   │       │ Application │
-└─────────────┘       └─────────────┘       └─────────────┘
-      │                     │
-      ▼                     ▼
-┌─────────────┐       ┌─────────────┐
-│  OrderItem  │       │Conversation │
-└─────────────┘       └─────────────┘
-```
+## Diagrams
 
-## Core Models
+## Activity Diagram
+[![Activity Diagram](../Diagrams/Activity.png)](../Diagrams/Activity.png)
 
+## Class Diagram
+[![Class Diagram](../Diagrams/Class.png)](../Diagrams/Class.png)
+
+## Data Flow Diagram
+[![DFD](../Diagrams/DFD.png)](../Diagrams/DFD.png)
+
+## Swimlane Diagram
+[![Swimlane Diagram](../Diagrams/Swimlane.png)](../Diagrams/Swimlane.png)
 ### User (PWD)
 
 People With Disabilities who request services.
